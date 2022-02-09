@@ -24,7 +24,7 @@ services:
 
   app:
     build: .
-    container_name: cpf_blacklist
+    container_name: desafio_globotech_1
     ports:
       - 3080:3080
     volumes:
