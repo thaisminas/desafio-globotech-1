@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize-typescript';
-import { CourseEntity } from '../courses/entities/course-entity';
+import { CourseEntity } from '../courses/course-entity';
 
 export const databaseProviders = [
   {

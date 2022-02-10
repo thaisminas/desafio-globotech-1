@@ -1,9 +1,10 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 import { CoursesModule } from './courses/courses.module';
 import { DatabaseModule } from './database/database-module';
 
 @Module({
-  imports: [CoursesModule, DatabaseModule],
+  imports: [ConfigModule.forRoot(), CoursesModule, DatabaseModule],
   controllers: [],
   providers: [],
 })

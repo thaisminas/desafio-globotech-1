@@ -1,4 +1,4 @@
-import { CourseEntity } from '../entities/course-entity';
+import { CourseEntity } from './course-entity';
 
 export const providers = [
   {

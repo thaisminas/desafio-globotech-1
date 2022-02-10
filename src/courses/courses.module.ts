@@ -1,5 +1,5 @@
-import { providers } from './repositories/providers';
-import { CoursesRepository } from './repositories/courses-repository';
+import { providers } from './providers';
+import { CoursesRepository } from './courses-repository';
 import { Module } from '@nestjs/common';
 import { CoursesService } from './courses.service';
 import { CoursesController } from './courses.controller';
