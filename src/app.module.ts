@@ -4,7 +4,7 @@ import { CoursesModule } from './courses/courses.module';
 import { DatabaseModule } from './database/database-module';
 
 @Module({
-  imports: [ConfigModule.forRoot(), CoursesModule, DatabaseModule],
+  imports: [CoursesModule, DatabaseModule],
   controllers: [],
   providers: [],
 })
